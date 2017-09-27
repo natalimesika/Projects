@@ -1,0 +1,3 @@
+#convert *.ppm frame%d.jpg
+#ffmpeg -framerate 10 -i frame%d.jpg MyFile.mp4
+
